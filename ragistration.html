@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Home Remedies</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/12/Green-Wallpaper-10.jpg);
+            background-size: cover;
+        }
+        .page-container {
+            width: 1250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        .form-container {
+            width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: left;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #28a745;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="form-container">
+            <h2>Personalized Home Remedies Registration</h2>
+            <form>
+                <label>What is your age?</label>
+                <input type="number" placeholder="Enter your age" required>
+                
+                <label>What is your gender?</label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+                
+                <label>What is your weight (kg) and height (cm)?</label>
+                <input type="text" placeholder="Enter weight and height" required>
+                
+                <label>Are you vegetarian or non-vegetarian?</label>
+                <select>
+                    <option>Vegetarian</option>
+                    <option>Non-Vegetarian</option>
+                </select>
+                
+                <label>Do you have any food allergies?</label>
+                <input type="text" placeholder="Enter allergies">
+                
+                <label>What health issue are you facing?</label>
+                <textarea placeholder="Describe your symptoms..."></textarea>
+                
+                <label>How long have you been experiencing this issue?</label>
+                <select>
+                    <option>Less than a week</option>
+                    <option>1-4 weeks</option>
+                    <option>More than a month</option>
+                </select>
+                
+                <label>How severe is the issue?</label>
+                <select>
+                    <option>Mild</option>
+                    <option>Moderate</option>
+                    <option>Severe</option>
+                </select>
+                
+                <label>Do you have any existing medical conditions?</label>
+                <input type="text" placeholder="E.g., Diabetes, Hypertension">
+                
+                <label>Are you currently on any medication?</label>
+                <input type="text" placeholder="Enter medications">
+                
+                <label>How often do you exercise?</label>
+                <select>
+                    <option>Sedentary</option>
+                    <option>Moderate</option>
+                    <option>Active</option>
+                </select>
+                
+                <label>Do you have any seasonal allergies?</label>
+                <input type="text" placeholder="E.g., Pollen, Dust">
+                
+                <label>Do you prefer herbal, Ayurvedic, or kitchen-based remedies?</label>
+                <select>
+                    <option>Herbal</option>
+                    <option>Ayurvedic</option>
+                    <option>Kitchen-Based</option>
+                </select>
+                
+                <label>Do you smoke or consume alcohol?</label>
+                <select>
+                    <option>Yes</option>
+                    <option>No</option>
+                    <option>Occasionally</option>
+                </select>
+                <div>
+                    <a href="remedy.html">
+                        <button type="button">Get My Personalized Remedy</button>
+                    </a>
+                </div>
+                
+                
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

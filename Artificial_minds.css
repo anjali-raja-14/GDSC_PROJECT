@@ -115,7 +115,7 @@ a {
     font-size: 15px;
     height: 30px;
     width: 130px;
-    background-color:#016d12;
+   
     COLOR: rgb(187, 255, 0);
     font-weight: bolder;
     font-family: sans-serif;
@@ -375,7 +375,6 @@ a {
 .flip_box5_a {
     padding-top: 0px;
 }
-
 
 #container8 {
     height: 800px;
